@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8647F3181FE0F4A300D2D8D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F3171FE0F4A300D2D8D1 /* AppDelegate.m */; };
+		8647F31B1FE0F4A300D2D8D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F31A1FE0F4A300D2D8D1 /* ViewController.m */; };
+		8647F31E1FE0F4A300D2D8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8647F31C1FE0F4A300D2D8D1 /* Main.storyboard */; };
+		8647F3201FE0F4A300D2D8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8647F31F1FE0F4A300D2D8D1 /* Assets.xcassets */; };
+		8647F3231FE0F4A300D2D8D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8647F3211FE0F4A300D2D8D1 /* LaunchScreen.storyboard */; };
+		8647F3261FE0F4A300D2D8D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F3251FE0F4A300D2D8D1 /* main.m */; };
+		8647F3301FE0F4A300D2D8D1 /* ArcherCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F32F1FE0F4A300D2D8D1 /* ArcherCodeTests.m */; };
+		8647F33B1FE0F4A300D2D8D1 /* ArcherCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F33A1FE0F4A300D2D8D1 /* ArcherCodeUITests.m */; };
+		8647F34B1FE0F51000D2D8D1 /* ArcherCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F34A1FE0F51000D2D8D1 /* ArcherCoder.m */; };
+		8647F34E1FE0F6E200D2D8D1 /* ArcherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647F34D1FE0F6E200D2D8D1 /* ArcherModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8647F32C1FE0F4A300D2D8D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8647F30B1FE0F4A300D2D8D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8647F3121FE0F4A300D2D8D1;
+			remoteInfo = ArcherCode;
+		};
+		8647F3371FE0F4A300D2D8D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8647F30B1FE0F4A300D2D8D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8647F3121FE0F4A300D2D8D1;
+			remoteInfo = ArcherCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8647F3131FE0F4A300D2D8D1 /* ArcherCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcherCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8647F3161FE0F4A300D2D8D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8647F3171FE0F4A300D2D8D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8647F3191FE0F4A300D2D8D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8647F31A1FE0F4A300D2D8D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8647F31D1FE0F4A300D2D8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8647F31F1FE0F4A300D2D8D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8647F3221FE0F4A300D2D8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8647F3241FE0F4A300D2D8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8647F3251FE0F4A300D2D8D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8647F32B1FE0F4A300D2D8D1 /* ArcherCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcherCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8647F32F1FE0F4A300D2D8D1 /* ArcherCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcherCodeTests.m; sourceTree = "<group>"; };
+		8647F3311FE0F4A300D2D8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8647F3361FE0F4A300D2D8D1 /* ArcherCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcherCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8647F33A1FE0F4A300D2D8D1 /* ArcherCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcherCodeUITests.m; sourceTree = "<group>"; };
+		8647F33C1FE0F4A300D2D8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8647F3491FE0F51000D2D8D1 /* ArcherCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherCoder.h; sourceTree = "<group>"; };
+		8647F34A1FE0F51000D2D8D1 /* ArcherCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherCoder.m; sourceTree = "<group>"; };
+		8647F34C1FE0F6E200D2D8D1 /* ArcherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcherModel.h; sourceTree = "<group>"; };
+		8647F34D1FE0F6E200D2D8D1 /* ArcherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcherModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8647F3101FE0F4A300D2D8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647F3281FE0F4A300D2D8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647F3331FE0F4A300D2D8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8647F30A1FE0F4A300D2D8D1 = {
+			isa = PBXGroup;
+			children = (
+				8647F3151FE0F4A300D2D8D1 /* ArcherCode */,
+				8647F32E1FE0F4A300D2D8D1 /* ArcherCodeTests */,
+				8647F3391FE0F4A300D2D8D1 /* ArcherCodeUITests */,
+				8647F3141FE0F4A300D2D8D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8647F3141FE0F4A300D2D8D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8647F3131FE0F4A300D2D8D1 /* ArcherCode.app */,
+				8647F32B1FE0F4A300D2D8D1 /* ArcherCodeTests.xctest */,
+				8647F3361FE0F4A300D2D8D1 /* ArcherCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8647F3151FE0F4A300D2D8D1 /* ArcherCode */ = {
+			isa = PBXGroup;
+			children = (
+				8647F3481FE0F51000D2D8D1 /* ArcherCoder */,
+				8647F3161FE0F4A300D2D8D1 /* AppDelegate.h */,
+				8647F3171FE0F4A300D2D8D1 /* AppDelegate.m */,
+				8647F3191FE0F4A300D2D8D1 /* ViewController.h */,
+				8647F31A1FE0F4A300D2D8D1 /* ViewController.m */,
+				8647F31C1FE0F4A300D2D8D1 /* Main.storyboard */,
+				8647F31F1FE0F4A300D2D8D1 /* Assets.xcassets */,
+				8647F3211FE0F4A300D2D8D1 /* LaunchScreen.storyboard */,
+				8647F3241FE0F4A300D2D8D1 /* Info.plist */,
+				8647F3251FE0F4A300D2D8D1 /* main.m */,
+			);
+			path = ArcherCode;
+			sourceTree = "<group>";
+		};
+		8647F32E1FE0F4A300D2D8D1 /* ArcherCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8647F32F1FE0F4A300D2D8D1 /* ArcherCodeTests.m */,
+				8647F3311FE0F4A300D2D8D1 /* Info.plist */,
+			);
+			path = ArcherCodeTests;
+			sourceTree = "<group>";
+		};
+		8647F3391FE0F4A300D2D8D1 /* ArcherCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8647F33A1FE0F4A300D2D8D1 /* ArcherCodeUITests.m */,
+				8647F33C1FE0F4A300D2D8D1 /* Info.plist */,
+			);
+			path = ArcherCodeUITests;
+			sourceTree = "<group>";
+		};
+		8647F3481FE0F51000D2D8D1 /* ArcherCoder */ = {
+			isa = PBXGroup;
+			children = (
+				8647F34C1FE0F6E200D2D8D1 /* ArcherModel.h */,
+				8647F34D1FE0F6E200D2D8D1 /* ArcherModel.m */,
+				8647F3491FE0F51000D2D8D1 /* ArcherCoder.h */,
+				8647F34A1FE0F51000D2D8D1 /* ArcherCoder.m */,
+			);
+			path = ArcherCoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8647F3121FE0F4A300D2D8D1 /* ArcherCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8647F33F1FE0F4A300D2D8D1 /* Build configuration list for PBXNativeTarget "ArcherCode" */;
+			buildPhases = (
+				8647F30F1FE0F4A300D2D8D1 /* Sources */,
+				8647F3101FE0F4A300D2D8D1 /* Frameworks */,
+				8647F3111FE0F4A300D2D8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcherCode;
+			productName = ArcherCode;
+			productReference = 8647F3131FE0F4A300D2D8D1 /* ArcherCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8647F32A1FE0F4A300D2D8D1 /* ArcherCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8647F3421FE0F4A300D2D8D1 /* Build configuration list for PBXNativeTarget "ArcherCodeTests" */;
+			buildPhases = (
+				8647F3271FE0F4A300D2D8D1 /* Sources */,
+				8647F3281FE0F4A300D2D8D1 /* Frameworks */,
+				8647F3291FE0F4A300D2D8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8647F32D1FE0F4A300D2D8D1 /* PBXTargetDependency */,
+			);
+			name = ArcherCodeTests;
+			productName = ArcherCodeTests;
+			productReference = 8647F32B1FE0F4A300D2D8D1 /* ArcherCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8647F3351FE0F4A300D2D8D1 /* ArcherCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8647F3451FE0F4A300D2D8D1 /* Build configuration list for PBXNativeTarget "ArcherCodeUITests" */;
+			buildPhases = (
+				8647F3321FE0F4A300D2D8D1 /* Sources */,
+				8647F3331FE0F4A300D2D8D1 /* Frameworks */,
+				8647F3341FE0F4A300D2D8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8647F3381FE0F4A300D2D8D1 /* PBXTargetDependency */,
+			);
+			name = ArcherCodeUITests;
+			productName = ArcherCodeUITests;
+			productReference = 8647F3361FE0F4A300D2D8D1 /* ArcherCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8647F30B1FE0F4A300D2D8D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = whj_Object_c;
+				TargetAttributes = {
+					8647F3121FE0F4A300D2D8D1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8647F32A1FE0F4A300D2D8D1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8647F3121FE0F4A300D2D8D1;
+					};
+					8647F3351FE0F4A300D2D8D1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8647F3121FE0F4A300D2D8D1;
+					};
+				};
+			};
+			buildConfigurationList = 8647F30E1FE0F4A300D2D8D1 /* Build configuration list for PBXProject "ArcherCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8647F30A1FE0F4A300D2D8D1;
+			productRefGroup = 8647F3141FE0F4A300D2D8D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8647F3121FE0F4A300D2D8D1 /* ArcherCode */,
+				8647F32A1FE0F4A300D2D8D1 /* ArcherCodeTests */,
+				8647F3351FE0F4A300D2D8D1 /* ArcherCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8647F3111FE0F4A300D2D8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647F3231FE0F4A300D2D8D1 /* LaunchScreen.storyboard in Resources */,
+				8647F3201FE0F4A300D2D8D1 /* Assets.xcassets in Resources */,
+				8647F31E1FE0F4A300D2D8D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647F3291FE0F4A300D2D8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647F3341FE0F4A300D2D8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8647F30F1FE0F4A300D2D8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647F31B1FE0F4A300D2D8D1 /* ViewController.m in Sources */,
+				8647F3261FE0F4A300D2D8D1 /* main.m in Sources */,
+				8647F34B1FE0F51000D2D8D1 /* ArcherCoder.m in Sources */,
+				8647F34E1FE0F6E200D2D8D1 /* ArcherModel.m in Sources */,
+				8647F3181FE0F4A300D2D8D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647F3271FE0F4A300D2D8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647F3301FE0F4A300D2D8D1 /* ArcherCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647F3321FE0F4A300D2D8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647F33B1FE0F4A300D2D8D1 /* ArcherCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8647F32D1FE0F4A300D2D8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8647F3121FE0F4A300D2D8D1 /* ArcherCode */;
+			targetProxy = 8647F32C1FE0F4A300D2D8D1 /* PBXContainerItemProxy */;
+		};
+		8647F3381FE0F4A300D2D8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8647F3121FE0F4A300D2D8D1 /* ArcherCode */;
+			targetProxy = 8647F3371FE0F4A300D2D8D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8647F31C1FE0F4A300D2D8D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8647F31D1FE0F4A300D2D8D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8647F3211FE0F4A300D2D8D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8647F3221FE0F4A300D2D8D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8647F33D1FE0F4A300D2D8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8647F33E1FE0F4A300D2D8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8647F3401FE0F4A300D2D8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcherCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whj-Object-c.ArcherCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8647F3411FE0F4A300D2D8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcherCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whj-Object-c.ArcherCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8647F3431FE0F4A300D2D8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcherCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whj-Object-c.ArcherCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcherCode.app/ArcherCode";
+			};
+			name = Debug;
+		};
+		8647F3441FE0F4A300D2D8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcherCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whj-Object-c.ArcherCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcherCode.app/ArcherCode";
+			};
+			name = Release;
+		};
+		8647F3461FE0F4A300D2D8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcherCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whj-Object-c.ArcherCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcherCode;
+			};
+			name = Debug;
+		};
+		8647F3471FE0F4A300D2D8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcherCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whj-Object-c.ArcherCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcherCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8647F30E1FE0F4A300D2D8D1 /* Build configuration list for PBXProject "ArcherCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647F33D1FE0F4A300D2D8D1 /* Debug */,
+				8647F33E1FE0F4A300D2D8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8647F33F1FE0F4A300D2D8D1 /* Build configuration list for PBXNativeTarget "ArcherCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647F3401FE0F4A300D2D8D1 /* Debug */,
+				8647F3411FE0F4A300D2D8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8647F3421FE0F4A300D2D8D1 /* Build configuration list for PBXNativeTarget "ArcherCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647F3431FE0F4A300D2D8D1 /* Debug */,
+				8647F3441FE0F4A300D2D8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8647F3451FE0F4A300D2D8D1 /* Build configuration list for PBXNativeTarget "ArcherCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647F3461FE0F4A300D2D8D1 /* Debug */,
+				8647F3471FE0F4A300D2D8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8647F30B1FE0F4A300D2D8D1 /* Project object */;
+}
